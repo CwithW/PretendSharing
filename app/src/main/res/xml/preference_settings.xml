@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/title_switches">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="disable_qq"
+            android:title="@string/checkbox_disable_qq" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="disable_wechat"
+            android:title="@string/checkbox_disable_wechat"
+            android:summaryOff="@string/summary_sorry_wechat"/>
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="disable_generic"
+            android:title="@string/checkbox_disable_generic" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/title_misc">
+        <Preference
+            android:key="show_help"
+            android:title="@string/label_show_help" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="disable_toast"
+            android:title="@string/checkbox_disable_toast"
+            android:summary="@string/summary_disable_toast"/>
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="disable_this"
+            android:title="@string/checkbox_disable_this"
+            android:summary="@string/summary_disable_this"/>
+    </PreferenceCategory>
+</PreferenceScreen>

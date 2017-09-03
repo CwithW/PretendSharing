@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">假装分享</string>
+    <string name="msg_not_qq_share_action">不是一个QQ分享动作。仍然尝试。</string>
+    <string name="msg_not_action">不是一个动作</string>
+    <string name="msg_qq_share_success">假装QQ分享成功</string>
+    <string name="title_guide">假装是帮助</string>
+    <string name="label_qq">假装QQ分享</string>
+    <string name="label_wechat">假装微信分享</string>
+    <string name="label_generic">假装通用分享</string>
+    <string name="msg_generic_share_success">假装通用分享成功</string>
+    <string name="msg_wechat_share_success">假装微信分享成功</string>
+    <string name="msg_sorry_cant_pretend">抱歉，无法对此程序伪装</string>
+    <string name="title_switches">组件</string>
+    <string name="title_misc">杂项</string>
+    <string name="label_show_help">查看帮助</string>
+    <string name="checkbox_disable_generic">禁用通用分享</string>
+    <string name="checkbox_disable_qq">禁用QQ分享</string>
+    <string name="checkbox_disable_wechat">禁用微信分享</string>
+    <string name="summary_sorry_wechat">在最近的微信SDK版本中，使用了显式Intent而非Intent.ACTION_VIEW。所以Intent不可被重定向。抱歉。</string>
+    <string name="checkbox_disable_this">隐藏桌面快捷方式</string>
+    <string name="summary_disable_this">警告：你可能会需要卸载并重新安装这个APP以重新显示快捷方式。</string>
+    <string name="msg_disable_error">禁用时出现错误</string>
+    <string name="checkbox_disable_toast">关闭吐司</string>
+    <string name="summary_disable_toast">"假装xx分享成功"这个提示</string>
+    <string name="msg_error_no_callback">错误: 包 %s 没有回调Activity。仍然尝试。</string>
+    <string name="label_weibo">假装微博分享</string>
+</resources>

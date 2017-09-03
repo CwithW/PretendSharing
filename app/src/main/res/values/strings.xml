@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Pretend Sharing</string>
+    <string name="msg_not_qq_share_action">Not a QQ Share action. Trying anyway.</string>
+    <string name="msg_not_action">Not an action</string>
+    <string name="msg_qq_share_success">Pretend QQ sharing success</string>
+    <string name="title_guide">I wanna be the Guide</string>
+    <string name="label_qq">Pretend QQ sharing</string>
+    <string name="label_wechat">Pretend Wechat sharing</string>
+    <string name="label_generic">Pretend Generic sharing</string>
+    <string name="msg_generic_share_success">Pretend Generic sharing success</string>
+    <string name="msg_wechat_share_success">Pretend Wechat sharing success</string>
+    <string name="msg_sorry_cant_pretend">Sorry, can\'t pretend for this app</string>
+    <string name="title_switches">Activities</string>
+    <string name="title_misc">Misc</string>
+    <string name="label_show_help">Show help</string>
+    <string name="checkbox_disable_qq">Disable QQ</string>
+    <string name="checkbox_disable_wechat">Disable Wechat</string>
+    <string name="checkbox_disable_generic">Disable Generic</string>
+    <string name="summary_sorry_wechat">In recent versions of Wechat SDK, they used direct Intent instead of Intent.ACTION_VIEW. Therefore the Intent cannot be redirected. Sorry.</string>
+    <string name="checkbox_disable_this">Hide the desktop shortcut</string>
+    <string name="summary_disable_this">Warning: You may need to uninstall and reinstall this app to reshow the shortcut.</string>
+    <string name="msg_disable_error">Error occured during disable</string>
+    <string name="checkbox_disable_toast">Disable Toast</string>
+    <string name="summary_disable_toast">"Pretend xx sharing success"this message</string>
+    <string name="msg_error_no_callback">Error: Package %s had no callback Activity. Trying anyway.</string>
+    <string name="label_weibo">Pretend Weibo sharing</string>
+</resources>
